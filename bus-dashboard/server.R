@@ -4,7 +4,7 @@ library(dplyr)
 library(curl) # make the jsonlite suggested dependency explicit
 
 # 1=South, 2=East, 3=West, 4=North
-dirColors <-c("1"="#595490", "2"="#527525", "3"="#A93F35", "4"="#BA48AA")
+dirColors <-c("1"="#FF0000", "2"="#00FF00", "3"="#0000FF", "4"="#BA48AA")
 
 # Download data from the Twin Cities Metro Transit API
 # http://svc.metrotransit.org/NexTrip/help
